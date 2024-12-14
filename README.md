@@ -1,5 +1,6 @@
 # Virtual_Assistant_with_RAG
-A virtual assistant using RAG enhancement. 
+A virtual assistant using RAG enhancement. We are using bank's FAQ for frequent clients' questions, mapped out with corresponding answers.
+
 
 Run the app using Gunicorn:
 
@@ -9,4 +10,4 @@ gunicorn -w 4 -b 0.0.0.0:8000 app:app
 
 Below you will find the relevant arxhitecture
 
-![Uploading architecture.drawio.png…]()
+
