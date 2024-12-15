@@ -279,7 +279,6 @@ Scrapy
 seaborn
 semver
 Send2Trash
-sentence-transformers==3.3.1
 service-identity
 setuptools==75.1.0
 sip
