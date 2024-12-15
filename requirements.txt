@@ -80,7 +80,6 @@ docutils
 et-xmlfile
 euroleague_api==0.0.13
 executing
-face-alignment==1.4.1
 fastjsonschema
 filelock
 flake8
@@ -358,5 +357,3 @@ yapf
 yarl
 zict
 zipp
-zope.interface
-zstandard
