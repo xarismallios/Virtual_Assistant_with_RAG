@@ -165,8 +165,6 @@ MarkupSafe
 matplotlib==3.9.2
 matplotlib-inline
 mccabe
-mdit-py-plugins
-menuinst
 mistune
 more-itertools
 mpmath
