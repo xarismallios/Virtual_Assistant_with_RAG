@@ -233,7 +233,6 @@ PyJWT
 pylint
 pylint-venv
 pyls-spyder==0.4.0
-pyodbc
 pyOpenSSL
 pyparsing
 PyQt5==5.15.10
