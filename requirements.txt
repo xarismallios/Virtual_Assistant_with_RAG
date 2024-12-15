@@ -64,7 +64,6 @@ cycler
 cytoolz
 dask
 dask-expr
-datashader
 debugpy
 decorator
 defusedxml
