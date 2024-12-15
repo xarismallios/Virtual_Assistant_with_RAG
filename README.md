@@ -4,7 +4,7 @@ A virtual assistant using RAG enhancement. We are using bank's FAQ for frequent 
 
 ## Features
 
-- 🌟 **Documents for RAG retrival **
+- 🌟 **Documents for RAG retrival**
 - 🚀 **Hybrid response using LLM**
 
 Create a `.env` file:
