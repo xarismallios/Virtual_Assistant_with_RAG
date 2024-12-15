@@ -2,6 +2,14 @@
 
 A virtual assistant using RAG enhancement. We are using bank's FAQ for frequent clients' questions, which is mapped out with corresponding answers, to help LLM answer user's questions regarding bank features.
 
+
+
+Below you will find the relevant architecture
+
+<img width="400" height="600" alt="image" src= "https://github.com/xarismallios/Virtual_Assistant_with_RAG/blob/main/ai_diagram_rag_llm.drawio.png" />
+
+
+
 ## Features
 
 - 🌟 **Documents for RAG retrival**
@@ -23,10 +31,6 @@ gunicorn -w 4 -b 0.0.0.0:8000 app:app
 ```
 
 <img width="385" alt="image" src="https://github.com/user-attachments/assets/f567162d-3e61-41a8-a802-aa463ee89678" />
-
-Below you will find the relevant architecture
-
-<img width="385" alt="image" src= "https://github.com/xarismallios/Virtual_Assistant_with_RAG/blob/main/ai_diagram_rag_llm.drawio.png" />
 
 
 ## Acknowledgments
