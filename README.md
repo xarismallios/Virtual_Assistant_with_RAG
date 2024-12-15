@@ -24,7 +24,10 @@ gunicorn -w 4 -b 0.0.0.0:8000 app:app
 
 <img width="385" alt="image" src="https://github.com/user-attachments/assets/f567162d-3e61-41a8-a802-aa463ee89678" />
 
-Below you will find the relevant arxhitecture
+Below you will find the relevant architecture
+
+<img width="385" alt="image" src= "https://github.com/xarismallios/Virtual_Assistant_with_RAG/blob/main/ai_diagram_rag_llm.drawio.png" />
+
 
 ## Acknowledgments
 
