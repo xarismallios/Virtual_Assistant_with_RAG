@@ -6,7 +6,7 @@ A virtual assistant using RAG enhancement. We are using bank's FAQ for frequent 
 
 Below you will find the relevant architecture
 
-<img width="1000" height="600" alt="image" src= "https://github.com/xarismallios/Virtual_Assistant_with_RAG/blob/main/ai_diagram_rag_llm.drawio.png" />
+<img width="1000" height="400" alt="image" src= "https://github.com/xarismallios/Virtual_Assistant_with_RAG/blob/main/ai_diagram_rag_llm.drawio.png" />
 
 
 
