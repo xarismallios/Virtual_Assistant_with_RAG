@@ -179,7 +179,6 @@ networkx
 nltk
 notebook
 notebook_shim
-numba
 numexpr
 numpy
 numpydoc
