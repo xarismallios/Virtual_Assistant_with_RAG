@@ -17,7 +17,6 @@ altair
 annotated-types
 anyio
 appdirs==1.4.4
-applaunchservices
 appnope
 appscript
 archspec
