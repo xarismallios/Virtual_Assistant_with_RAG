@@ -99,7 +99,7 @@ def load_knowledge_base(csv_file):
         raise RuntimeError(f"Error loading knowledge base: {e}")
 
 # Function to retrieve relevant passages from Qdrant
-def retrieve_relevant_passages(query, top_n=1, min_score=0.95):
+def retrieve_relevant_passages(query, top_n=1, min_score=0.9):
     """
     Retrieves the most relevant passages from Qdrant using cosine similarity search.
 
@@ -187,7 +187,7 @@ def ask():
         query = data['query']
 
         # Step 1: Retrieve relevant passages from Qdrant
-        relevant_passages = retrieve_relevant_passages(query, top_n=3, min_score=0.8)
+        relevant_passages = retrieve_relevant_passages(query, top_n=1, min_score=0.9)
 
         # If no relevant passages are found, return a strict response
         if not relevant_passages:
