@@ -1,0 +1,31 @@
+services:
+  flask-api:
+    build: .
+    container_name: flask-api-washing-machine-ai-assistant-v2
+    working_dir: /app
+    ports:
+      - "8000:8000"   # Map Flask app port
+    environment:
+      - FLASK_ENV=production
+      - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}  # Use environment variables
+      - AZURE_OPENAI_ENDPOINT=${AZURE_OPENAI_ENDPOINT}
+      - COMPLETION_DEPLOYMENT_ID=${COMPLETION_DEPLOYMENT_ID}
+      - EMBEDDING_DEPLOYMENT_ID=${EMBEDDING_DEPLOYMENT_ID}
+      - QDRANT_HOST=qdrant
+    depends_on:
+      - qdrant
+    volumes:
+      - .:/app  # Mount local directory to container for development
+    command: python app.py  
+  
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"   # Qdrant API port
+    volumes:
+      - qdrant_data:/qdrant/storage  # Persist Qdrant data
+
+volumes:
+  qdrant_data:
+    driver: local
