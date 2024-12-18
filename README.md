@@ -2,7 +2,8 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.12.7%2B-blue)](https://www.python.org/)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![License](https://img.shields.io/github/license/xarismallios/Virtual_Assistant_with_RAG/blob/main/LICENSE)](LICENSE)
+[![License](https://img.shields.io/github/license/xarismallios/Virtual_Assistant_with_RAG)](https://github.com/xarismallios/Virtual_Assistant_with_RAG/blob/main/LICENSE)
+
 
 🤖  **AI Virtual Assistant using RAG** provides a cutting-edge, production-ready solution for answering users questions, based on our latest documentation and user manuals. Users chat with our data !
 
