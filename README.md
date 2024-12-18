@@ -1,5 +1,3 @@
-<img width="764" alt="image" src="https://github.com/user-attachments/assets/674ecd9d-0a20-4eda-b16e-886f1fc4b104" /># 🤖 Virtual_Assistant_with_RAG 🤖 #
-
 A virtual assistant using RAG enhancement. We are using bank's FAQ for frequent clients' questions, which is mapped out with corresponding answers, to help LLM answer user's questions regarding bank features.
 
 
