@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and debug files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+
+# Dependencies
+*.egg-info/
+*.egg
+Pipfile.lock
+poetry.lock
+
+# Qdrant storage (if locally mounted)
+qdrant_storage/
