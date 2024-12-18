@@ -7,7 +7,7 @@
 🤖  **AI Virtual Assistant using RAG** provides a cutting-edge, production-ready solution for answering users questions, based on our latest documentation and user manuals. Users chat with our data !
 
 
-We are an e-commerce Brand selling washing machines. Our customers oftern trying to find info about our proudcts and classic LLMs and chatGPT doesn't have relative and up to date info. On the other hand, We have relevant documents, including machines manuals from the manufacturer, reviews from customers or even past q&a topics we have gathered through out customer support mail system. So we are using RAG to retreive those documents and enhance our knowledge base with more relative content in users queries. 
+We are an e-commerce brand specializing in selling washing machines. Our customers often seek information about our products, but traditional LLMs like ChatGPT lack access to accurate and up-to-date details. However, we have access to a wealth of relevant resources, including manufacturer manuals, customer reviews, and a collection of past Q&A topics compiled from our customer support system. To bridge this gap, we utilize a Retrieval-Augmented Generation (RAG) approach to retrieve these documents and enrich our knowledge base, ensuring more relevant and precise responses to user queries.
 
 
 Below you will find the relevant architecture
