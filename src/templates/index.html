@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤖 Your Virtual Assistant 🤖</title>
+    <title>🤖 Your Virtual Washing Machine Assistant 🤖</title>
     <style>
         /* General Styles */
         body {
@@ -83,7 +83,7 @@
 <body>
     <div class="container">
         <!-- Title -->
-        <h2>🤖 Virtual Assistant 🤖</h2>
+        <h2>🤖 Your Virtual Washing Machine Assistant 🤖</h2>
         <p>Type your question below and receive an AI-powered answer.</p>
 
         <!-- Input Section -->
@@ -127,19 +127,6 @@
 
                 // Populate the output with results
                 responseContent.innerHTML = `
-                    <p><strong>Relevant Passages:</strong></p>
-                    <ul>
-                        ${
-                            data.relevant_passages && data.relevant_passages.length > 0
-                                ? data.relevant_passages.map(passage => `
-                                    <li>
-                                        <strong>Q:</strong> ${passage.question}<br>
-                                        <strong>A:</strong> ${passage.answer}
-                                    </li>
-                                `).join('')
-                                : "<li>No relevant passages found.</li>"
-                        }
-                    </ul>
                     <p><strong>Final Output:</strong> ${data.formatted_response || "N/A"}</p>
                 `;
             })
