@@ -1,5 +1,13 @@
-A virtual assistant using RAG enhancement. We are using bank's FAQ for frequent clients' questions, which is mapped out with corresponding answers, to help LLM answer user's questions regarding bank features.
+# 🤖 AI Virtual Assistant using RAG 🤖 
 
+[![Python Version](https://img.shields.io/badge/python-3.12.7%2B-blue)](https://www.python.org/)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License](https://img.shields.io/github/license/username/project)](LICENSE)
+
+👟 **NikeBot** provides a cutting-edge, production-ready solution for managing sneaker drops and restocks, so you never miss your chance to cop your favorite kicks! 🚀
+
+
+An AI Virtual Assistant using RAG. We are an e-commerce Brand selling washing machines. Our customers oftern trying to find info about our proudcts and classic LLMs and chatGPT doesn't have relative and up to date info. On the other hand, We have relevant documents, including machines manuals from the manufacturer, reviews from customers or even past q&a topics we have gathered through out customer support mail system. So we are using RAG to retreive those documents and enhance our knowledge base with more relative content in users queries. 
 
 
 Below you will find the relevant architecture
@@ -11,7 +19,13 @@ Below you will find the relevant architecture
 - 🌟 **Documents for RAG retrival**
 - 🚀 **Hybrid response using LLM**
 
-Create a `.env` file:
+
+Simply deploy and run the app after deploying a docker image
+```
+docker-compose up
+```
+
+Don't forget to config the `.env` file:
 
 ```bash
 JWT_SECRET=""
@@ -19,11 +33,6 @@ AZURE_OPENAI_API_KEY=""
 AZURE_OPENAI_ENDPOINT=""
 COMPLETION_DEPLOYMENT_ID=""
 EMBEDDING_DEPLOYMENT_ID=""
-```
-
-Run the app using Gunicorn:
-```
-gunicorn -w 4 -b 0.0.0.0:8000 app:app
 ```
 
 <img width="764" alt="image" src="https://github.com/user-attachments/assets/77a1f8e4-8b3f-4182-b5ee-0b1355db8a52" />
