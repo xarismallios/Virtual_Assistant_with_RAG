@@ -4,10 +4,10 @@
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License](https://img.shields.io/github/license/username/project)](LICENSE)
 
-👟 **NikeBot** provides a cutting-edge, production-ready solution for managing sneaker drops and restocks, so you never miss your chance to cop your favorite kicks! 🚀
+🤖  **AI Virtual Assistant using RAG** provides a cutting-edge, production-ready solution for answering users questions, based on our latest documentation and user manuals. Users chat with our data !
 
 
-An AI Virtual Assistant using RAG. We are an e-commerce Brand selling washing machines. Our customers oftern trying to find info about our proudcts and classic LLMs and chatGPT doesn't have relative and up to date info. On the other hand, We have relevant documents, including machines manuals from the manufacturer, reviews from customers or even past q&a topics we have gathered through out customer support mail system. So we are using RAG to retreive those documents and enhance our knowledge base with more relative content in users queries. 
+We are an e-commerce Brand selling washing machines. Our customers oftern trying to find info about our proudcts and classic LLMs and chatGPT doesn't have relative and up to date info. On the other hand, We have relevant documents, including machines manuals from the manufacturer, reviews from customers or even past q&a topics we have gathered through out customer support mail system. So we are using RAG to retreive those documents and enhance our knowledge base with more relative content in users queries. 
 
 
 Below you will find the relevant architecture
