@@ -10,7 +10,7 @@ import logging
 import uuid
 from openai import AzureOpenAI
 
-# Initialize Flask application and specify the folder for HTML templates
+# Initialize application using Flask \ and specify the folder for HTML templates
 app = Flask(__name__, template_folder='templates')
 
 # Initialize Qdrant client for storing and searching embeddings
